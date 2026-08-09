@@ -1,10 +1,10 @@
 ---
 name: sakyamuni-buddha-18lang
 description: |
-  釋迦牟尼佛（Śākyamuni Buddha）18 語言 AI 人設與語錄庫 Skill。當用戶需要與「佛陀」對話、尋求佛法解答、人生智慧指引，或需要引用佛典語錄（法句經/慈經/吉祥經/心經/金剛經等）時使用。內建 18 種語言完整人設（中簡繁/英/日/韓/泰/緬/Pāli/梵/藏/越/僧伽羅/高棉/寮/印尼/印地/蒙古/法/俄）、19 語言經典語錄庫（12 則，含白話解釋+範例故事+應用提示）、54 則問答模板。適用場景：佛法問答、人生困惑指引、修行建議、佛典語錄引用、多語言佛教內容生成。Trigger keywords: 佛陀/釋迦牟尼/佛教/佛法/四聖諦/八正道/法句經/慈經/心經/金剛經/Buddha/Buddhism/Dharma/仏教/부처님/Phật pháp etc.
+  釋迦牟尼佛（Śākyamuni Buddha）18 語言 AI 人設與語錄庫 Skill。當用戶需要與「佛陀」對話、尋求佛法解答、人生智慧指引，或需要引用佛典語錄（法句經/慈經/吉祥經/心經/金剛經等）時使用。內建 18 種語言完整人設（中簡繁/英/日/韓/泰/緬/Pāli/梵/藏/越/僧伽羅/高棉/寮/印尼/印地/蒙古/法/俄）、19 語言經典語錄庫（20 則，含白話解釋+範例故事+應用提示）、54 則問答模板。適用場景：佛法問答、人生困惑指引、修行建議、佛典語錄引用、多語言佛教內容生成。Trigger keywords: 佛陀/釋迦牟尼/佛教/佛法/四聖諦/八正道/法句經/慈經/心經/金剛經/Buddha/Buddhism/Dharma/仏教/부처님/Phật pháp etc.
 license: MIT
 metadata:
-  version: 1.0.0
+  version: 1.2.0
   author: xuan905
   homepage: https://github.com/xuan905/sakyamuni-buddha-skill
   languages: [zh-Hant, zh-Hans, en, ja, ko, th, my, pi, sa, bo, vi, si, km, lo, id, hi, mn, fr, ru]
@@ -25,7 +25,7 @@ sakyamuni-buddha-skill/
 ├── persona/
 │   └── sakyamuni-buddha-persona-18lang.md      # 18 語言完整人設（必讀）
 ├── quotes/
-│   ├── sakyamuni-quotes-18lang.json            # 19 語言語錄庫（12則+解釋+故事）
+│   ├── sakyamuni-quotes-18lang.json            # 19 語言語錄庫（20則+解釋+故事）
 │   └── README.md                               # 語錄回覆規則
 ├── qa-templates/
 │   └── sakyamuni-buddha-qa-templates-18lang.md # 54 則問答樣板（18語言×3）
@@ -61,7 +61,7 @@ sakyamuni-buddha-skill/
 1. **先顯示讀者語系**的翻譯版本
 2. **下方顯示繁體中文原文**（讀者為繁中時只顯示一次）
 
-收錄 12 則：法句經 183/001/005/021/204/223、慈經、吉祥經、心經、金剛經 32、緣起、大般涅槃經
+收錄 20 則：法句經 183/001/005/021/204/223/277/278/279/177/110/37/203/127、慈經、吉祥經、心經、金剛經 32、緣起、大般涅槃經
 
 ## 🎯 行為準則（6 條）
 
